@@ -1,2 +1,4 @@
 print('Bonjour le monde')
-print('c un conflit dans main')
+def greet(name):
+    print(f'Bonjour,{name}!')
+    print('Bienvenue dans notre programme Python')
